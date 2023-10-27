@@ -1,16 +1,73 @@
+.nav{
+    background-color: rgb(71, 68, 68);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    border: white 2px;
+    align-content: center;
+    font-family: cursive;
+    
+}
+
+
+.nav-title{
+    color: aliceblue;
+}
+
+
+.nav-links{
+    display: flex;
+    width: 500px;
+    height: 20px;
+    justify-content: space-between;
+    list-style-type: none; 
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    font-size:larger;
+}
+.btn{
+    box-shadow: 15px 25px 27px -1px rgba(0,0,0,0.73);
+    border: black 5px ;
+    background-color: rgb(3, 209, 209);
+    font-size: large;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: cursive;
 }
-.card{
+.space{
     height: auto;
-    width: 500px;
-    border: 2px solid grey ;
+    width: 50%;
+    border: 2px solid black ;
+    margin: auto;
+
 }
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
 .container{
     background-color: aqua;
-    width: auto;
+    width: 500px;
     height: 40px;
 }
 .container > img{
@@ -51,68 +108,56 @@ p{
     height: 20px;
     margin-right: 10px;
 }
-.edit > a{
-    color: blue;
-    text-decoration: underline;
-}
-
-
-
-.nav{
-    background-color: rgb(71, 68, 68);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2%;
-    border: 1px solid whitesmoke;
-    align-content: center;
-    font-family: cursive;
+.edu{
+    margin: 20px 0px;
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px 20px;
     
-}
-ul{
-    display: flex;
-    width: 500px;
-    height: 20px;
-    justify-content: space-between;
-    list-style-type: none; 
-    padding-top: 10px;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.active{
-    font-size:larger;
-}
-.btn{
-    box-shadow: 3px 3px 3px rgb(0, 0, 0);
-    border: black 5px ;
-    background-color: rgb(3, 209, 209);
-    font-size: large;
-}
-
-.educ{
-    display: flex;
-    flex-direction: column;
 }
 
 .educ > ul{
     display: flex;
     flex-direction: column;
+    justify-content: space-around; 
 }
-.card-educ{
-    margin-left: 80px ;
-    margin-top: 40px;
+.date{
+    color: rgb(165, 157, 157);
 }
 
-.edu{
-    background-color: rgb(116, 112, 112);
-    width: 500px;
-    height: 20px;
-    color: azure;
-    size: 10px;
-    margin-top: 40px;
+.request{
+    border: 2px solid gray;
+    height: auto;
+    width: auto;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.connection{
+    border: 2px solid gray;
+    height: auto;
+}
+
+h5{
+    margin: 20px 0px;
+    background-color: gray;
+    color: aliceblue;
     padding: 10px 20px;
+}
+
+.request >li >img
+
 
 }
+
+
+
+
+
+
 
 
