@@ -21,6 +21,10 @@ var arr=[4,2.5,1,-0.5,-2,-3.5];
 for(var i=0;i<=arr.length-1;i++){
     console.log(arr[i]);
 }
+console.log('print the sequence secend try');
+for(var i=4;i>-4;i-=1.5){
+    console.log(i);
+}
 
 
 
