@@ -21,6 +21,7 @@ body{
 
 input{
     height: 20px;
+    border: 2px solid black;
 }
 
 #navbutton{
@@ -48,7 +49,7 @@ input{
 .top{
     display: flex;
     justify-content: space-between;
-    border: 2px solid pink;
+    border: 2px solid rgb(175, 46, 68);
     height: 200px;
 
 }
@@ -56,7 +57,7 @@ input{
 .bottum{
     display: flex;
     justify-content: space-between;
-    border: 2px solid pink;
+    border: 2px solid rgb(175, 46, 68);
     height: 200px;
 }
 
@@ -82,7 +83,8 @@ li{
 
 span{
     color: blue;
-    
+    text-decoration: underline;
+    font-size: larger;    
 }
 
 button{
@@ -93,5 +95,18 @@ button{
 
 p{
     margin: 5px 25px 15px auto;
+}
+
+#rightButt{
+    background-color:green;
+}
+
+.right{
+    border: 2px solid rgb(175, 46, 68);
+    height: 120px;
+}
+
+h4{
+    margin: 10px 5px;
 }
 
