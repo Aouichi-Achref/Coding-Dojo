@@ -9,65 +9,65 @@ print(type(fruit))               #- log statement  - access value
 print(pizza_toppings[1])         #- log statement  - access value
 pizza_toppings.append('Mushrooms')  #  add value
 print(person['name'])            #- log statement
-person['name'] = 'George'
-person['eye_color'] = 'blue'
+person['name'] = 'George'        # - change value
+person['eye_color'] = 'blue'     #  add value
 print(fruit[2])                  #- log statement
 
-if num1 > 45:
+if num1 > 45:                    #- if
     print("It's greater")        #- log statement
-else:
+else:                            #- else
     print("It's lower")          #- log statement
 
-if len(string) < 5:
+if len(string) < 5:              ##- if
     print("It's a short word!")  #- log statement
-elif len(string) > 15:
-    print("It's a long word!")
-else:
-    print("Just right!")
+elif len(string) > 15:           #- else if
+    print("It's a long word!")   #- log statement
+else:                            #- else
+    print("Just right!")         #- log statement
 
-for x in range(5):
-    print(x)
-for x in range(2,5):
-    print(x)
-for x in range(2,10,3):
-    print(x)
-x = 0
-while(x < 5):
-    print(x)
-    x += 1
+for x in range(5):               #- for loop
+    print(x)                     #- log statement
+for x in range(2,5):             #- for loop
+    print(x)                     #- log statement
+for x in range(2,10,3):          #- for loop
+    print(x)                     #- log statement
+x = 0                            #- change value
+while(x < 5):                    #- for loop
+    print(x)                     #- log statement
+    x += 1                       #- change value
 
-pizza_toppings.pop()
-pizza_toppings.pop(1)
+pizza_toppings.pop()             #- delete value
+pizza_toppings.pop(1)            #- delete value
 
-print(person)
-person.pop('eye_color')
-print(person)
+print(person)                    #- log statement
+person.pop('eye_color')          # - delete value
+print(person)                    #- log statement
 
-for topping in pizza_toppings:
-    if topping == 'Pepperoni':
+for topping in pizza_toppings:   #- for loop
+    if topping == 'Pepperoni':   #- if
         continue
-    print('After 1st if statement')
-    if topping == 'Olives':
-        break
+    print('After 1st if statement')  #- log statement
+    if topping == 'Olives':          #- if
+        break                        #
 
-def print_hello_ten_times():
-    for num in range(10):
-        print('Hello')
+def print_hello_ten_times():        #
+    for num in range(10):           #- for loop
+        print('Hello')              #- log statement
 
 print_hello_ten_times()
 
 def print_hello_x_times(x):
-    for num in range(x):
-        print('Hello')
+    for num in range(x):           #- for loop
+        print('Hello')             #- log statement
 
 print_hello_x_times(4)
 
 def print_hello_x_or_ten_times(x = 10):
-    for num in range(x):
-        print('Hello')
+    for num in range(x):          #- for loop x-->- stop
+        print('Hello')            #- log statement
 
-print_hello_x_or_ten_times()
-print_hello_x_or_ten_times(4)
+print_hello_x_or_ten_times()      
+print_hello_x_or_ten_times(4)     
 
 
 """
