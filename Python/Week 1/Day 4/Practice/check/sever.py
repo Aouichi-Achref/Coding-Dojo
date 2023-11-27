@@ -5,13 +5,13 @@ app = Flask(__name__)
 #http:
 @app.route('/')
 def hello():
-    return render_template("index.html",row=8,col=8)
+    return render_template("index.html",row=8,col=8,color1="wheat",color2='blue')
 
 
 #http:/int<x>
 @app.route('/<int:x>')
 def x_line(x):
-    return render_template("index.html" , row=x , col=8)
+    return render_template("index.html" , row=x , col=8,color1="wheat",color2='blue')
 
 
 #http:/int<x>/int<y>
