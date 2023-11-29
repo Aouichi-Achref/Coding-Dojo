@@ -27,16 +27,16 @@
     {% if 'chose' in session %}
         {% if session['chose'] == session['random_num'] %}
             <div class="card bg-success">
-                <h2>Good choice!</h2>
+                <h2>emm Good choice!😒</h2>
                 <a href="/clear" class="btn btn-primary">Play Again</a>
             </div>
         {% elif session['chose'] < session['random_num'] %}
-            <div class="card bg-danger">
-                <h2>Too Low!!!</h2>
+            <div class="card bg-whet">
+                <h2>cooomn you need more!!!</h2>
             </div>
         {% else %}
-            <div class="card bg-danger">
-                <h2>Too High!!!</h2>
+            <div class="card bg-navy">
+                <h2>thats to mush!</h2>
             </div>
         {% endif %}
     {% endif %}
