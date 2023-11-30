@@ -7,7 +7,7 @@ class Dojo:
         self.id=data_dict['id']
         self.name=data_dict['name']
         
-       
+        
     @classmethod
     def get_all(cls):
         query='''SELECT * FROM dojos'''
