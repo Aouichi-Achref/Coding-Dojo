@@ -13,7 +13,7 @@ function App() {
       <legend>🔥🔥🔥app.js🔥🔥🔥</legend>
       <h1>hello from the third world....</h1>
 
-      <div>
+        <div>
       <PersonCard first_name={"oussema"} last_name={"atig"} age={25} hairColor="brown"></PersonCard>
       <PersonCard first_name={"souhail"} last_name={"skanji"} age={24} hairColor="Black"></PersonCard>
       <PersonCard first_name={"Adam"} last_name={"salha"} age={23} hairColor="blond"></PersonCard>
